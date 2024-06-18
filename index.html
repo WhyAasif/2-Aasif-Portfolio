@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(31, 0, 69);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(8, 8, 117);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: lavender;
+        border-bottom: 2px groove rgb(255, 255, 255);
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(141, 71, 227);
+        height: 2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .firstSection > div {
+        width: 35%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+        max-width: 30px 0;
+      }
+
+      .rightSection {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(180, 68, 255);
+      }
+      #element {
+        color: rgb(180, 68, 255);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 50px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        background-color: white;
+        height: 92px;
+        width: 1px;
+        margin: 0 100px;
+      }
+
+.image-top{
+  width: 30px;
+    position: relative;
+    top: -35px;
+    left: -13px;
+
+}
+
+.vertical-title{
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+
+
+}
+
+.vertical-desc{
+  position: relative;
+  width: 150px;
+  top: 86px;
+  color: gray;
+  font-size: 9px;
+
+}
+
+footer{
+  background-color: rgb(23 0 52);
+}
+
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer-first{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.text-rights{
+  text-align: center;
+  color: gray;
+  padding: 20px 0;
+
+}
+.btn{
+  padding: 18px;
+    margin: 20px 20px 0 0;
+    background-color: purple;
+    color: white;
+    border: none;
+        border-radius: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5) , inset 0 0 10px 0 rgb(65, 9, 58);
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aasif's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">About </a></li>
+            <li><a href="">Services </a></li>
+            <li><a href="">Home </a></li>
+            <li><a href="">Prohects </a></li>
+            <li><a href="">Content me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Aasif</span> and I am a passionate
+          <br />
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button><button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img
+            src="https://www.ignitiv.com/wp-content/uploads/2023/05/Magento-Development-company-11.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far...</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://clipartcraft.com/images/html5-logo-png-transparent-5.png"
+              alt=""
+            />
+            <div class="vertical-title">Html Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              rack your progress with the free "My Learning" program here W3Schools. Log in to your 
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top" style="width: 47px;
+              left: -22px;"
+              src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png"
+              alt=""
+            />
+            <div class="vertical-title">CSS Developer (2010-2016)</div>
+            <div class="vertical-desc">
+              rack your progress with the free "My Learning" program here W3Schools. Log in to your 
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top" style="width: 47px;
+              left: -22px;"
+              src="https://th.bing.com/th/id/R.a717eafa290bf333c4dd1c86076c5b9e?rik=pXCeL7BeH7OpqA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnodejs-logo-vector-png-node-js-logo-nodejs-javascript-source-code-960.png&ehk=NaiEBuqG0x3uVgAGlcLZYzHf4HXNJlhbuaDOEskHpP0%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+            <div class="vertical-title">Notejs Developer(2012-2014)</div>
+            <div class="vertical-desc">
+              rack your progress with the free "My Learning" program here W3Schools. Log in to your 
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://cdn0.iconfinder.com/data/icons/fillicons-information-technology/1550/programmer_software_developer-1024.png"
+              alt=""
+            />
+            <div class="vertical-title">Full-Stack Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              rack your progress with the free "My Learning" program here W3Schools. Log in to your 
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top" style="width: 47px;
+              left: -22px;"
+              src="https://cdn.dribbble.com/users/2592071/screenshots/7327591/logo-artboard_2_4x_4x.png"
+              alt=""
+            />
+            <div class="vertical-title">CSS Developer (2010-2016)</div>
+            <div class="vertical-desc">
+              rack your progress with the free "My Learning" program here W3Schools. Log in to your 
+            </div>
+          </div>
+        
+        </div>
+      </section>
+    </main>
+
+<footer>
+   <div class="footer">
+     <div class="footer-first">Aasif's Developer Portfolio</div>
+     <div class="footer-second">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+     <div class="footer-third"><ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Services</li>
+      <li>Blog</li>
+    </ul></div>
+     <div class="footer-fourth"><ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Services</li>
+      <li>Blog</li>
+    </ul></div>
+
+   </div>
+<div class="text-rights">
+ Copyright &#169 www.Aasifportfolio.com | All right reserved
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Graphic Designer...", "<i>Web Developer.</i>"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
